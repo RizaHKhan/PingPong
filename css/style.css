@@ -1,0 +1,41 @@
+body {
+    background-color: black !important;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#gameArea {
+    height: 350px;
+    width: 550px;
+    border-width: 10px !important;
+    position: relative;
+}
+
+#ball {
+    position: absolute;
+    bottom:165px;
+    left: 265px;
+    height:16px;
+    width:16px;
+    background: #DEE2E6;
+}
+
+
+#left {
+    left: 5px;
+    top: 125px;
+    height:80px;
+    width: 5px;
+    border-width: 5px !important;
+    position: absolute;
+}
+
+#right {
+    left: 515px;
+    top: 125px;
+    height:80px;
+    width: 5px;
+    border-width: 5px !important;
+    position: absolute;
+}
